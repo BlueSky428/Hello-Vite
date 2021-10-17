@@ -1,9 +1,13 @@
+import Another from "@/Another"
 import React from 'react'
 
 function App() {
 
   return (
-    <div className="text-purple-500">hello vite</div>
+    <div className="p-20 text-purple-500">
+      test
+      <Another/>
+    </div>
   )
 }
 
